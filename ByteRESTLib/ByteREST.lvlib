@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="CfgLoaders" Type="Folder">
 		<Item Name="RESTLoaderBase.lvclass" Type="LVClass" URL="../CfgLoaders/LoaderBase/RESTLoaderBase.lvclass"/>
+		<Item Name="RESTLoaderConstant.lvclass" Type="LVClass" URL="../CfgLoaders/LoaderConstant/RESTLoaderConstant.lvclass"/>
 		<Item Name="RESTLoaderIni.lvclass" Type="LVClass" URL="../CfgLoaders/LoaderIni/RESTLoaderIni.lvclass"/>
 	</Item>
 	<Item Name="RESTBase.lvclass" Type="LVClass" URL="../ByteRESTClass/ByteRESTBase/RESTBase.lvclass"/>
