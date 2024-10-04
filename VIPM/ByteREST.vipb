@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-07-03 18:58:01" Modified_Date="2024-09-02 14:43:16" Creator="AlessandroPerla" Comments="" ID="88638c8d27bad8bbaa5e46c362b5f060">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-07-03 18:58:01" Modified_Date="2024-10-04 09:17:40" Creator="AlessandroPerla" Comments="" ID="c26455986eb5805868e30106d4b4c478">
   <Library_General_Settings>
     <Package_File_Name>Bytelabs_S_r_l_s_lib_ByteREST</Package_File_Name>
-    <Library_Version>1.0.1.2</Library_Version>
+    <Library_Version>1.0.1.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\ByteRESTLib</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -228,7 +228,7 @@
         <Path>..\ByteRESTLib\CfgLoaders</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2CE45DBF0CD9BC76AEEC2A2A4AB8B1A8</GUID>
+      <GUID>FF0FD2585210DDEE5AEBCF886EDE2C8D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -263,7 +263,7 @@
         <Path>..\ByteRESTLib\ByteRESTClass\ByteRESTBase</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B8E590535E0B1B30CFF5FCF4072ECFE6</GUID>
+      <GUID>191F6E570210CB67FDEBD04B8E3DE57D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -312,7 +312,7 @@
         <Path>..\ByteRESTLib\CfgLoaders\LoaderConstant</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>40A99659D0B98F7F2CD8B0A0DFF53C59</GUID>
+      <GUID>5CC08DB9A17C64E3802BF200531EEBD7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -375,7 +375,7 @@
         <Path>..\ByteRESTLib\ByteRESTClass\ByteRESTBase\Initialize.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>226183940DC5542D9677188F28CC8366</GUID>
+      <GUID>D77CD758B99753F1F6ED596FEAB22840</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -508,7 +508,7 @@
         <Path>..\ByteRESTLib\ByteRESTClass\ByteRESTBase\Accessors\Write Version.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1C1C823ECB9F6C02B011FAAC4B223722</GUID>
+      <GUID>238E825008FE95552C164D9F4A4BB66A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -557,7 +557,21 @@
         <Path>..\ByteRESTLib\ByteRESTClass\ByteRESTBase\HTTP\POSTRequest.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8F03BD0D13D0D0E0687A7766C5D65ECB</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>PUTRequest.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\ByteRESTLib\ByteRESTClass\ByteRESTBase\HTTP\PUTRequest.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>757CA18552F7EF8D3919C332EAC0CBE0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -606,7 +620,7 @@
         <Path>..\ByteRESTLib\CfgLoaders\LoaderIni\LoadServerCfg.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>45C0AD2BBB3583C5DE10D120C3A8440F</GUID>
+      <GUID>3843716488C25159F9FC34699B70DFF4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -641,7 +655,7 @@
         <Path>..\ByteRESTLib\CfgLoaders\LoaderIni\Accessors\Init.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>18CFE5EA9FDA3FE4B03578C2753D4C52</GUID>
+      <GUID>F1C6B296693E37907C591C1B5098B6CE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -704,7 +718,7 @@
         <Path>..\ByteRESTLib\CfgLoaders\LoaderConstant\OverwriteIni.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>792A9555DAE213A0CE7FD3E6606338C0</GUID>
+      <GUID>E19AB893A916DC1836C53F8C0DC20D72</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -753,7 +767,7 @@
         <Path>..\ByteRESTLib\CfgLoaders\LoaderBase</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8544129F06F1EEB9CF5AB4558FA04054</GUID>
+      <GUID>A90F8437D3A2D54B433997D9CDA0FCB1</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -788,7 +802,7 @@
         <Path>..\ByteRESTLib\ByteRESTClass\ByteRESTBase\Auth</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DE0EE3F9C4424983A86B3FCB5054D9F5</GUID>
+      <GUID>B1431A6E9C0BF12540571A4DA4D75543</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -823,7 +837,7 @@
         <Path>..\ByteRESTLib\ByteRESTClass\ByteRESTBase\Auth\Authentication_type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8456E023B41DDA4DEF07F37E62685DE</GUID>
+      <GUID>89BB331A44077C9AA385B7BE82C87A60</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -858,7 +872,7 @@
         <Path>..\ByteRESTLib\CfgLoaders\LoaderBase\ServerParams.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0D8B549B4A336736750D204885509E97</GUID>
+      <GUID>9F18AED98201742EF6998C4BB2E4827B</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
