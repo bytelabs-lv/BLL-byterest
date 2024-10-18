@@ -10,7 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Tests" Type="Folder"/>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Test_CheckCommunication.vi" Type="VI" URL="../Tests/Test_CheckCommunication.vi"/>
+		</Item>
 		<Item Name="ByteREST.lvlib" Type="Library" URL="../ByteRESTLib/ByteREST.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
